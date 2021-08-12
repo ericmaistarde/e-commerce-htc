@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: #302D47;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+}
+.container--commerce{
+    width: 70%;
+    justify-content:start;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.wrapper-header{
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 105px;
+}
+form{
+    width: 316px;
+    height: 530px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+label{
+    color: #BFBFBF;
+}
+.form-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 150px;
+}
+.title-wrapper-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title-box{
+    width: 125px;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 43px;
+}
+.welcome-text{
+    font-size: 20px;
+    color: #BFBFBF;
+}
+.welcome-text::first-letter{
+    text-transform: capitalize;
+}
+.title{
+    font-size: 109px;
+    font-weight: 900;/*nao sei se wight e size sao a msm coisa,mas cooquei por precaução*/
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.title-commerce{
+    font-size: 30px;
+    color: #ffffff;
+}
+.title-commerce::first-letter{
+    text-transform: capitalize;
+}
+.title--commerce{
+    font-size: 51px;
+}
+.sub-title{
+    font-size: 26px;
+    color: #BFBFBF;
+}
+.sub-title::first-letter{
+    text-transform: capitalize;
+}
+.sub-title--commerce{
+    font-size: 11px;
+}
+.wrapper-user-data{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 16PX;
+}
+.wrapper-user-data--size{
+    width: 375px;
+    height: 100%;
+    margin: 0 19px 0 0;
+}
+.user-data{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    background-color: #3F3D56;
+    border-radius: 7PX;
+    color: #8D8BA4;
+    padding-left: 22px;
+}
+.user-data:hover{
+    background-color: #3f3d568e;
+    color: #D2D2D2;
+}
+.box-wrapper{
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 58px;
+}
+.wrapper-buttons-header{
+    width: 400px;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrapper-buttons-header--size{
+    width: 396px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button-wrapper{
+    width: 271px;
+    height: 100%;
+}
+.button-wrapper--products{
+    width: 131px;
+    height: 40px;
+    margin: 0 17px 0 27px;
+}
+.button-wrapper--login--size{
+    width: 151px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.button{
+    width: 100%;
+    height: 100%;
+    background-color: #6C63FF;
+    color: #ffffff;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.button--width--margin{
+    width: 271px;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.button--width--margin::first-letter{/* nao sei porque nao esta funcionando do jeito que eu gostaria */
+    text-transform: capitalize;
+}
+.button-wrapper--height{
+    width: 100%;
+    height: 40px;
+}
+.button:hover{
+    background-color: #6b63ff60;
+    border: #ffffff 1px solid;
+    transition: 400ms;
+}
+.button--red{
+    width: 101px;
+    background-color: #EE4C4C;
+    font-size: 20px;
+}
+.button--red:hover{
+    background-color: #ee4c4c4f;
+}
+.button-wrapper--margin{
+    margin-left:10px;
+}
+.buttons-products-deafult{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.font--size{
+    font-size: 12px;
+}
+.font--size::first-letter{
+    text-transform: capitalize;
+}
+.text--align{
+    margin-left: -40%;
+}
+.text--align::first-letter{
+    text-transform: capitalize;
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 70px;
+    box-sizing: border-box;
+    margin-bottom: 70px;
+}
+.wrapper-search{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button-wrapper--search{
+    width: 131px;
+    height: 100%;
+}
+.button--width--margin::first-letter{
+    text-transform: capitalize;
+}
+.products-wrapper{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.products-deafult{
+    width: 355px;
+    height: 439px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #9e9d9d;
+    border-radius: 16px;
+    margin: 30px;
+    text-transform: capitalize;
+    cursor:pointer;
+}
+.products-deafult:hover{
+    background-color: #B9B5FF;
+    transition-duration: 400ms;
+}
+.description-products{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 36px;
+    margin-bottom: 17px;
+}
+.logo , strong{
+    font-size: 20px;
+    color: #636363;
+}
+.logo--margin , strong{
+    margin-bottom: 15px;
+}
